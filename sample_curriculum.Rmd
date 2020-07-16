@@ -1,0 +1,51 @@
+---
+title: "FYSP Data Analysis Template"
+author: "Brian Kim"
+date: "15/07/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# This is where you do initial setups, such as installing packagesloading libraries which allow for us 
+# to do a lot of things in R.
+# For the purposes of this activity, we will be learning how to make data visualizations using
+# the pre-installed "USArrests" dataset.
+
+# To begin, we are going to install a package called "ggplot2" to make data visualizations.
+# "Tidyverse" will be installed as well to clean up data. 
+install.packages("ggplot2")
+install.packages("tidyverse")
+
+# Once things are successfully installed, we will then load both "ggplot2" and "tidyverse" libraries so we can use it.
+library(ggplot2)
+library(tidyverse)
+
+# We are also going to insert the pre-installed dataset "USArrests" into the "Environment" pane that you see 
+# on your right. 
+
+USArrests
+
+
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
