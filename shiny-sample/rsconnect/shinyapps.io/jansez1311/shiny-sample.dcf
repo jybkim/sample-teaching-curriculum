@@ -1,0 +1,12 @@
+name: shiny-sample
+title: shiny-sample
+username:
+account: jansez1311
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2582125
+bundleId: 3402939
+url: https://jansez1311.shinyapps.io/shiny-sample/
+when: 1594972890.47626
+asMultiple: FALSE
+asStatic: FALSE
