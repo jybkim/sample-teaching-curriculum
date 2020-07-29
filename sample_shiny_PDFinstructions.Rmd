@@ -1,8 +1,8 @@
 ---
-title: "Shiny Sample Instructions, HCAP FYSP"
+title: "HCAP FYSP Shiny PDF"
 author: "Brian Kim"
-date: "15/07/2020"
-output: html_document
+date: "17/07/2020"
+output: pdf_document
 ---
 
 *Portions of this curriculum are adopted from Preceptor David Kane's GOV50 Class at Harvard University.*
@@ -198,4 +198,5 @@ If you are able to recreate any of the shiny pages **[here](https://shiny.rstudi
 <https://www.davidkane.info/files/final_projects.html>
 *and this resource (which, thanks to Preceptor David Kane, I was able to do a lot):*
 <https://davidkane9.github.io/PPBDS/shiny.html>
+
 
